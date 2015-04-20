@@ -1,288 +1,163 @@
 <!DOCTYPE html>
-
-
-<html>
-
+<html lang="en">
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
-	<script type='text/javascript' src='jquery.min.js'></script>
-	<script type='text/javascript' src='script.js'></script>
-	<meta charset="UTF-8">
-	<script src="d3.v3.min.js"></script>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-	<link rel="stylesheet" type="text/css" href="css/component.css" />
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<title>Aakash for ASB president</title>
-	<style>
-		body {
-			padding: 0;
-			margin: 0;
-			font-family: 'Raleway', sans-serif;
-			background-color: white;
-		}
-		#banner {
-			width: 100%;
-			height: 800px;
-			background-image: url("background.png");
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-		}
-		#navbar {
-			width: 100%;
-			height: 90px;
-			display:block;
-			position: fixed;
-			z-index: 1000;
-			background-color: rgba(40, 40, 40, 0.0);
-			-webkit-transition: .5s all;
-			-moz-transition: .5s all;
-			-o-transition: .5s all;
-			transition: .5s all;
-		}
-		#navbar-container {
-			width: 1100px;
-			height: 90px;
-			margin: 0 auto;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			font-family: 'Open Sans', sans-serif;
-			line-height: 20px;
-			font-weight: 600;
-		}
-		#name {
-			color: white;
-			text-transform: uppercase;
-			padding-top: 15px;
-			font-size: 18px;
-			float: left;
-			-webkit-transition: .5s all;
-			-moz-transition: .5s all;
-			-o-transition: .5s all;
-			transition: .5s all;
-		}
-		#menulist {
-			float: right;
-			list-style: none;
-			display: inline;
-			margin-top: 35px;
-			-webkit-transition: .5s all;
-			-moz-transition: .5s all;
-			-o-transition: .5s all;
-			transition: .5s all;
-			color: rgba(245, 245, 245, 0.0);
-		}
-		#menulist li{
-			display: block;
-			float: left;
-			font-size: 12px;
-		}
-		a.menu-item {
-			padding: 20px;
-			-webkit-transition: .2s all;
-			-moz-transition: .2s all;
-			-o-transition: .2s all;
-			transition: .2s all;
-		}
-		a.menu-item:hover{
-			text-decoration: none;
-			opacity: 0.3;
-		}
-		a.menu-item:link{
-			text-decoration: none;
-			color: rgba(245, 245, 245, 0.9);
-		}
-		a.menu-item:visited{
-			text-decoration: none;
-			color: rgba(245, 245, 245, 0.9);
-		}
-		#intro {
-			color: black;
-			width: 450px;
-			height: 420px;
-			margin: auto;
-  			position: absolute;
-  			top: 0; left: 0; bottom: 0; right: 0;
-		}
-		.section-container {
-			width: 1100px;
-			margin: 0 auto;
-		}
-		.title {
-			margin: 0;
-			padding: 0;
-			font-size: 40px;
-			color: black;
-			text-align: center;
-			padding-top: 70px;
-		}
-		.info {
-			margin: 0;
-			padding: 0;
-			font-size: 24px;
-			color: black;
-			text-align: center;
-			padding-top: 20px;
-			line-height: 35px;
-			/*float:center;*/
-			width: 100%;
-			margin-top: 20px;
-		}
-				
-		.label {
-			font-size: 24px;
-			color: black;
-			text-align: center;
-			width: 50px;
-		}
-		
-		#about-section {
-			width: 100%;
-			height: 800px;
-			background-color: white;
-		}
-		#Projects-section {
-			width: 100%;
-			height: 550px;
-			background-color: rgb(240, 240, 240);
-		}
-/* 
-		#experience-section {
-			width: 100%;
-			height: 450px;
-			background-color: white;
-		}
-		
-		#contact-section {
-			width: 100%;
-			height: 250px;
-			background-color: rgb(240, 240, 240);
-			color: white;
-		}
- */
-		a:link {
-			text-decoration: none;
-			color: steelblue;
-		}
-		a:visited {
-			text-decoration: none;
-			color: steelblue;
-		}
-		.Projects-icons {
-			height: 200px;
-			border-radius: 40px;
-			margin: 35px;
-			-webkit-transition: all 0.5s ease;
-     		-moz-transition: all 0.5s ease;
-      	 	-o-transition: all 0.5s ease;
-      		-ms-transition: all 0.5s ease;
-          	transition: all 0.5s ease;
-		}
-.Projects-icons:hover {
-  border-radius: 50%;
-  -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-		.contact-icons {
-			margin: 20px;
-		}
-		.contact-icons:hover {
-			opacity: 0.5;
-			-webkit-transition: .5s all;
-			-moz-transition: .5s all;
-			-o-transition: .5s all;
-			transition: .5s all;
-		}
-		#foot{
-			width: 100%;
-			height: 100px;
-		}
-		#foot p{
-			text-align: center;
-			margin:0;
-			font-size:24px;
-			color:gray;
-			padding-top:35px;
-		}
-		
-	</style>
+<title>Saratoga High School ASB</title>
+<meta name="description" content="What's happening inside and outside Earth" />
+<meta itemprop="description" content="What's happening inside and outside Earth" />
+<meta id="meta-tag-description" property="og:description" content="What's happening inside and outside Earth" />
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-
 <body>
-	<div id = "navbar">
-		<div id = "navbar-container">
-			<a href = ""><p id = "name">Aakash for ASB president</p></a>
-			<ul id = "menulist">
-				<li><a class = "menu-item" id = "item1" href = "#about-section">Promise</a></li>
-				<li><a class = "menu-item" id = "item2" href = "#Projects-section">Why</a></li>
-				<li><a class = "menu-item" id = "item3" href = "#contact-section">♥</a></li>
+<div id="innerbody">
+<div id="header">
+	<font color=#00FF00 size=20>Saratoga High School ASB</font>
+</div>
+<div>
+	<table>
+		<tr>
+			<td colspan="2" id="topnav_container" role="navigation">
+				<div class="topnav">
+					<ul class="topnav_container_links">
+						<li class="topnav_current">
+							<a class="topnav_link current" href="index.html">HOME</a>
+						</li>
+						<li class="topnav_unselected">
+							<a class="topnav_link unselected" href="about.html">ABOUT</a>
+						</li>
+						<li class="unselected topnav_dropdown">
+							<a class="topnav_link unselected" href="officers.html">OFFICERS</a>
+							<div class="topnav_dropdown_menu" style= "-webkit-user-select:none; visibility: visible; left: 263px; top: 216px; disply:none;" role="menu" aria-haspopup="true" tabindex="-1">
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="0">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="president.html" style="-webkit=user-select: none;">the President</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="1">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="vicepresident.html" style="-webkit=user-select: none;">the Vice President</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="2">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="secretary.html" style="-webkit=user-select: none;">the Secretary</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="3">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="treasurer.html" style="-webkit=user-select: none;">the Treasurer</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="4">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="boardrep.html" style="-webkit=user-select: none;">the Board Representative</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="5">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="headcommissioners.html" style="-webkit=user-select: none;">the Head Commissioners</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-select:none;" id="6">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="clubscommissioner.html" style="-webkit=user-select: none;">the Clubs Commissioner</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="unselected topnav_dropdown">
+							<a class="topnav_link unselected" href="clubs.html">CLUBS</a>
+							<div class="topnav_dropdown_menu" style="-webkit-user-select:none; visibility: visible; left:424px; top:259px; display: none;" role="menu" aria-haspopup="true" tabindex"-1">
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="7">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="createaclub.html" style="-webkit=user-select: none;">Create a Club</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="8">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="currentclubs.html" style="-webkit=user-select: none;">for Current Clubs</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="topnav_unselected">
+							<a class="topnav_link unselected" href="commissions.html">COMMISSIONS</a>
+						</li>
+						<li class="unselected topnav_dropdown">
+							<a class="topnav_link unselected" href="classpages.html">CLASS PAGES</a>
+							<div class="topnav_dropdown_menu" style="-webkit-user-select:none; visibility: visible; left:597px; top:86px; display: none;" role="menu" aria-haspopup="true" tabindex"-1">
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="9">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="seniors.html" style="-webkit=user-select: none;">the Seniors</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="10">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="juniors.html" style="-webkit=user-select: none;">the Juniors</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="11">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="sophomores.html" style="-webkit=user-select: none;">the Sophomores</a>
+									</div>
+								</div>
+								<div class="topnav_dropdown_menuitem unselected" role="menuitem" style="-webkit-user-seleect:none;" id="12">
+									<div class="topnav_dropdown_menuitem_content" style="-webkit-user-select: none;">
+										<a class="topnav_link unselected" href="freshmen.html" style="-webkit=user-select: none;">the Freshmen</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-links"><li class="current"><a class="sites-navigation-link current" href="/a/susdstudent.org/frederickkim/home">Home</a></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/graphics">Graphics</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/graphics/paint-net">Paint.net</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/graphics/picpick">Picpick</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/programming">Programming</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/programming/scratch">Scratch</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/programming/java-script">Java Script</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/programming/gamemaker-8">GameMaker 8</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/music">Music</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/music/anvil-studio">Anvil Studio/Audacity</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/music/creative-work">Creative Work</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/animation">Animation</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/animation/wink">Wink</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/animation/prezi">Prezi</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/modeling">Modeling</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/modeling/multi-media-logic">Multi-Media Logic</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/modeling/phun">Phun</a></div></div></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/susdstudent.org/frederickkim/feedback">Feedback</a></li></ul><div style="clear: both;"></div></div>
+					<div id="container">
+	<div id="body">
+		<div id="content">
+			<h2>Welcome</h2>
+			<p>Get free CSS Web Templates and PHP scripts at <a href="http://startingsites.com/">startingsites.com</a>. We have video tutorials to show you how to integrate all of our website software into you free template, features include a website newsletter and members area. For more information on all of our website software visit <a href="http://startingsites.com/">startingsites.com</a>. Startingsites.com also connects you with the best software and tools to modify and enhance your website.</p>
+
+			<h3>Free Web Hosting</h3>
+			<p>Learn the benefits of Free Web Hosting at <a href="http://startingsites.com/free-hosting.php">startingsites.com/free-hosting</a>.</p>
+
+			<h3>Advertising</h3>
+			<p>Check out our blog for tips on how to drive visitors to and manage you website free and effectively!</p>
+			<p>Follow Us: <a href="https://twitter.com/startingsites/" target="_blank"><img alt="follow startingsites on twitter!" src="images/twitter.png" height="22" width="22" border="0"/></a>&nbsp;&nbsp; 
+			<a href="https://www.facebook.com/SaratogaHighSchoolAsb" target="_blank"><img alt="join startingsites on facebook!" src="images/facebook.png" height="22" width="22" border="0"/></a>&nbsp; &nbsp;
+			<a href="http://www.youtube.com/startingsites" target="_blank"><img alt="to join startingsites on youtube hit the subscribe button!" src="images/youtube_small.jpg" height="22" width="49" border="0"/></a>
+		</p>
+
+		</div>
+		<div class="sidebar" style="background-image:url('images/side.png');">
+			<ul>
+				<li>
+					<ul class="blocklist">
+						<li><a href="index.html">Twitter</a></li>
+						<li><a href="http://youtube.com">Youtube</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Newsletter</a></li>
+						<li><a href="#">RSS Feed</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
+		<div class="clear"></div>
 	</div>
-
-	<div id = "banner">
-		<div id = "intro">
-			<center><div style = "width: 200px; margin: 0 auto;" ><img  style = "border-radius: 200px;" src = "profile1.png" height = "150"/></div>
-			<p style = "text-align: center; font-size: 40px; font-weight: 600; color: red; letter-spacing: 1px; margin-bottom: 5px;"><b>Aakash for ASB President</b><p></center>
-			<p style = "text-align: center; font-size: 24px; font-weight: 600; color: red;">♥<p>
+	</div>
+				
+				
+	
+		
+	<footer id="footer_main">
+		<div id="footer_inner">
+			<p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="officers.html">Officers</a> | <a href="clubs.html">Clubs</a> | <a href="commissions.html">Commissions</a> | <a href="classpages.html">Class Pages</a></p>
+			<address> Saratoga High School 20300 Herriman Ave., Saratoga, CA 95070 &nbsp;|&nbsp;  Phone: (408)867-3411  &nbsp;|&nbsp;  Fax: (408)867-3577</address>
 		</div>
-	</div>
-
-	<div id = "about-section">
-		<div class = "section-container">
-			<p class = "title">My Promise</p>
-			<p class = "info">Hello all! I am running for ASB President next year!!!
-My mission is to truly change the school for the better and I would love it (and you ) if you could help me accomplish that by voting for me for ASB President.
-With my experience serving as Class President, Secretary and ASB Treasurer I have learned what the school is capable of accomplishing and what we can do to improve. I hope to improve communication between ASB and the student body through increased efforts on behalf of the school leadership. And as a result, be able to take into consideration more requests and opinions regarding decisions made by ASB for the entire school. I hope to cater to you as a student and do my best in doing what's right for everyone.
-<br><br>
-<b>So vote me for asb president and you really will have something to #thanksasb about.</b>  </p>
-			
-
-		</div>
-	</div>
-
-
-	<div id = "Projects-section">
-		<div class = "section-container">
-			<p class = "title">♥</p>
-
-			<p class = "info"><iframe width="560" height="315" src="https://www.youtube.com/embed/w2xI1z_vlcM" frameborder="0" allowfullscreen></iframe></p>
-
-		</div>
-	</div>
-	<!-- 
-		<div id = "experience-section">
-		<div class = "section-container">
-			<p class = "title">What is This?</p>
-				<a href = "https://www.makegameswith.us/home/"><img class = "Projects-icons" src = "mgwu.png"/></a>
-				<a href = "http://www.fwd.us/"><img class = "Projects-icons" src = "fwd.png"/></a>
-				<a href = "http://belimitless.co/"><img class = "Projects-icons" src = "limitless.png"/></a>
-				<a href = "https://www.everalbum.com/"><img class = "Projects-icons" src = "everalbum.png"/></a>
-		</div>
-	</div>
-	<div id = "contact-section">
-		<div class = "section-container">
-			<p class = "title">Contact</p>
-			<div style = "width:320px; margin: 0 auto; margin-top:20px;">
-			<center>
-				<a href = "https://twitter.com/AakashMBoss"><img class = "contact-icons" src = "twitter.png"/></a>
-				<a href = "https://www.linkedin.com/pub/aakash-thumaty/87/97/b98"><img class = "contact-icons" src = "linkedin.png"/></a>
-				<a href = "mailto:aakashthumaty@gmail.com"><img class = "contact-icons" src = "email.png"/></a>
-				</center>
-			</div>
-		</div>
-	</div>
- -->
-
-	<footer id = "foot">
-		<p>♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ If you vote for me, I will love you ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ </p>
 	</footer>
-
-
-</body>
-
+	</body>
 </html>
